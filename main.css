@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+} 
+
+section {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container { 
+   display: grid; 
+   place-items: center;
+   margin-top: 150px;
+}
+
+.blog-heading {
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 54px;
+text-align: center;
+color: #000000;
+margin-top: 44px;
+margin-bottom: 32px;
+}
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-style: normal;
+text-align: center;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    size: 20px;
+
+}
+
+.articles {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    row-gap: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
